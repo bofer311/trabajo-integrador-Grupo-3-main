@@ -1,0 +1,154 @@
+header{
+    display: flex;
+    height: 90px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+h2 {
+    white-space: nowrap;
+    }
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+    padding: auto;
+    vertical-align: middle;
+}
+.enlace {
+    display: flex;
+    align-items: last baseline;
+    position: absolute;
+    padding: 0px 0px;
+  }
+
+.nombre {
+    font-weight: bold;
+    font-size: 2 rem;
+  }
+
+* {
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #ffffff;
+    height: 80px;
+    width: 100%;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+li a.active{
+    background: #ccae93;
+    transition: .5s;
+    color: #ffffff;
+}
+
+li a:hover{
+    background: #ccae93;
+    transition: .5s;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 858px){
+
+}
+
+.welcome-about {
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+
+@media (max-width: 767px){
+.about-img {
+    border-right: medium none;
+    text-align: center;
+}
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.logo whatsapp{
+    display: flex;
+    align-items: center;
+}
+
+#Derechos {
+    text-align: right;
+    color: black;
+  }
+.card {
+    width: 250px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .card a {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .card p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5px;
+  }
